@@ -1,0 +1,36 @@
+.item{
+    opacity: none;
+    transition:.4s ease all;
+    margin:15px 20px;
+    margin-left: 25%;
+    transform:scale(.8);
+  }
+  @media(max-width:768px){
+    .item{
+        margin:0; 
+        max-width: 100%;
+        transform:scale(.9)}
+  }
+  .active .item{
+    opacity:1;
+    transform:scale(1);
+  } 
+  body{
+    background:#ffffff;
+  }
+  
+  /*.owl-item {
+      -webkit-backface-visibility: hidden;
+      -webkit-transform: translateZ(0) 
+      scale(1.0, 1.0);
+  }*/
+  
+  .owl-carousel:after{content:""; display:block; position:absolute; width:8%; top:0; bottom:0; left:50%; margin-left:-4%; pointer-events: none; background:url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/43033/aett_logo_slider.png) no-repeat center 50%; background-size:100% auto;
+  }
+  
+  .owl-controls{position:absolute; margin-top:300px; margin-left: 35%;}
+  
+  section {
+    color: mediumaquamarine;
+  }
+    
